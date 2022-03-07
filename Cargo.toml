@@ -1,0 +1,16 @@
+[package]
+name = "zfn_pixiv_trans_api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+warp = "0.3.2"
+tokio = { version = "1", features = ["full"] }
+reqwest = "0.11.9"
+select = "0.5.0"
+serde_json = "1.0.79"
+rand = "*"
+md-5 = "0.10.1"
+rust-crypto = "0.2.36"
